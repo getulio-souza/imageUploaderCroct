@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import DropFileInput from './components/drop-file-input/DropFileInput';
+import ErrorUpload from './components/errorUpload/errorUpload';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="box">
+      <div className='single-box'>
+      <DropFileInput />
+      </div>
+      <div className='single-box'>
+      <ErrorUpload/>
+      </div>
     </div>
   );
 }
