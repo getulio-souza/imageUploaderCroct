@@ -12,7 +12,7 @@ const ErrorUpload = props => {
           <div className='photo-circle'></div>
 
           <div className='text-block'>
-            <p className='text text-1'>Sorry, the upload failed.</p>
+            <p className='text text-1'>Sorry, select only .jpg or .png files.</p>
             <input type="file" name="try again" id="" className='text text-2' />Try again
           </div>
 

@@ -67,7 +67,9 @@
 
 .text-2{
   color: black;
-  text-decoration: underline;
+}
+.text-2:hover{
+  color: grey;
 }
 
 .close-btn{
