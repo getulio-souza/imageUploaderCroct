@@ -2,9 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import './errorUpload.css';
-import { ImageConfig } from '../../config/ImageConfig';
-import uploadImg from '../../assets/uploadBtn.png'
-import logoImg from '../../assets/croct.png'
 
 
 const ErrorUpload = props => {

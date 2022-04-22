@@ -1,0 +1,45 @@
+.loaded_img{
+ border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 1rem;
+}
+
+.crop_save_btn{
+    border-style: none;
+    background-color: #3D485F;
+    color: #fff;
+    width: 109px;
+    height: 32px;
+    border-radius: 16px;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transition: .5s;
+}
+
+.crop_save_btn:hover{
+    background-color: transparent;
+    border: 1px solid #3D485F;
+    color: #3D485F;
+}
+
+.crop_line{
+    background-color: #3F80FF;
+    height: 2px;
+    width: 276px;
+    margin-top: 0.2rem;
+}
+
+.crop_circle{
+background-color: #3F80FF;
+height: 12px;
+width: 12px;
+left: 0px;
+top: 0px;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+}
+
