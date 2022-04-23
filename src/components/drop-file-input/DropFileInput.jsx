@@ -33,9 +33,8 @@ const DropFileInput = props => {
         <input {...getInputProps()} />
         {
             isDragActive ?
-              <img src='https://static.thenounproject.com/png/1156518-200.png' className='drop_img'/> :
-              <p className='drop_text'>Drop your image here
-              or click to upload it from computer</p>
+              <img src={uploadImg} className='drop_img'/> :
+              <p className='drop_text'>Drag and drop your image here.</p>
           }
       </div>
       {/*image preview*/}

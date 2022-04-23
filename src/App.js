@@ -2,7 +2,7 @@ import './App.css';
 import DropFileInput from './components/drop-file-input/DropFileInput';
 import ErrorUpload from './components/errorUpload/errorUpload';
 import CropImage from './components/cropImage/cropImage';
-// import UploadImage from './components/uploadImage/uploadImage';
+// import Update from './components/UpdateImg/update_img';
 
 function App() {
 
@@ -21,8 +21,11 @@ function App() {
       <article className='single-box'>
       <CropImage/>
       </article>
+      <article className='single-box'>
+        <DropFileInput/>
+      </article>
       {/* <article className='single-box'>
-      <UploadImage/>
+      <Update/>
       </article> */}
     </section>
   );

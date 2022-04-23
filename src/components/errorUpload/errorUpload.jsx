@@ -16,9 +16,7 @@ const ErrorUpload = props => {
             <input type="file" name="try again" id="" className='text text-2' />Try again
           </div>
 
-           <div className='close-btn'>
-            x
-           </div>
+           <div className='drop-btn'>x</div>
          </div>
         </article>
       </section>
